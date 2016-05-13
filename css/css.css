@@ -1,0 +1,191 @@
+﻿body {font-family:"宋体";font-size: 12px;color:#333;line-height: 180%; padding:0; margin:0;}
+
+a{color:#333333;  text-decoration:none;}
+
+a:hover{color:#cc0000;	text-decoration:underline;}
+
+em { font-style:normal;}
+
+ol { padding-left:3px;}
+
+/*-----整体宽度规格-----*/
+
+.mainColumn     { width:100%; overflow:hidden; float:right;}
+
+.sideColumn     { width:210px; overflow:hidden; float:left;}
+
+.sideColumn .AdvBanner img    { margin-bottom:5px;}
+
+.AllWrap{ margin:0 auto; width:1000px}
+
+.AllWrapInside{ margin:0 auto; width:1000px; padding-top:10px; overflow:hidden; }
+
+.fl { float:left;}
+
+.fr { float:right;}
+
+.fixed#gallerybar {border-bottom-color:#ccc;border-left-color:#ccc;border-right-color:#ccc;}
+
+
+
+/*------头部-------*/
+
+
+
+.headerInfo{ height:60px; position:relative; z-index:99;}
+.headerInfo .logo{ position:absolute; left:0; top:20px; font-size: 30px;font-weight: bold;}
+.headerInfo .logo a{color:#c00;}
+/*------中间------*/
+
+.tanga { width:210px;}
+
+.tangb { width:550px; padding:11px 0 0 11px;}
+
+.tangc { width:218px; padding-top:11px;}
+
+
+
+.xing {border:1px solid #ddd; line-height:15px; margin-bottom:10px; height:80px;}
+
+.xing td {border-right:1px solid #eee; padding:3px 0 0 0;}
+
+.xing td,
+
+.xing td a{font-weight:bold; color:#666;font-family:"microsoft yahei"; }
+
+
+
+.qinga { width:771px; overflow:hidden;}
+
+.qingb { width:218px;}
+
+
+
+.qinga .GoodsList-Tabs{ padding:0px;margin:0; border:1px solid #ddd; border-bottom:0px;border-top:2px solid #c00; border-right:0px;}
+
+.qinga .GoodsList-Tabs div { width:153px; background:url(sptab.gif) repeat-x; height:37px; padding:0px; margin:0px; text-align:center;
+
+ border:0px;border-right:1px solid #ddd; border-bottom:1px solid #ddd; line-height:37px;font-family:"microsoft yahei"; font-size:14px; font-weight:bold; color:#333;}
+
+.qinga .GoodsList-Tabs .current{ background:#fff;color:#c00; border-bottom:1px solid #fff;}
+
+
+
+.qinga .GoodsListWrap{	 border:1px solid #ddd; border-top:0px; width:769px; overflow:hidden;}
+
+.qinga .GoodsList { width:800px;}
+
+.qinga .itemsWrap h6{ height:32px; line-height:16px;}
+
+.qinga .itemsWrap { border-right:1px solid #eee;padding-top:10px;}
+
+.qinga .last { border-right:0px;}
+
+
+
+.price0 { color:#666;}
+
+.price1, .GoodsList .price1 { font-family:verdana; font-size:13px; color:#c00; font-weight:bold;}
+
+
+
+.qingb .itemsWrap { border-bottom:1px dotted #ddd;}
+
+.qingb .borderaa { width:216px; }
+
+/*-----11---------*/
+
+.meia { width:210px; overflow:hidden;}
+
+.meib { width:790px; overflow:hidden;}
+
+.meib .GoodsList-Tabs{ padding:0px;margin:0; border:1px solid #ddd; border-left:0px; border-bottom:0px;border-top:2px solid #c00; border-right:0px;}
+
+.meib .GoodsList-Tabs div { width:157px; height:37px; padding:0px; margin:0px; text-align:center;
+
+ border:0px;line-height:37px;font-family:"microsoft yahei"; font-size:14px; font-weight:bold; color:#333;}
+
+.meib .GoodsList-Tabs .current{ background:#fff;color:#c00; border-bottom:1px solid #fff;}
+
+
+
+.meib .GoodsListWrap{	 border:1px solid #ddd; border-left:0px; border-top:0px; width:789px; height:393px; overflow:hidden;}
+
+.meib .GoodsList { width:820px;border:1px solid #ddd;}
+
+.meib .itemsWrap h6{ height:16px; line-height:16px;}
+
+.meib .itemsWrap { border-right:1px solid #eee; border-bottom:1px solid #eee; padding:10px 0;}
+
+.meib .last { border-right:0px;}
+
+.meib .GoodsList .price1 {  font-size:12px;}
+
+.sptit { height:40px; background:#c00; overflow:hidden;}
+
+.spbg { height:352px; border:1px solid #c00; width:208px; overflow:hidden; position:relative;}
+
+.spbga { position: absolute; left:0px; top:0px; padding:5px 0 0 5px; width:203px; z-index:99;}
+
+.spbga a { line-height:27px;height:27px;width:94px;padding-left:5px;display:block; float:left; font-family:Verdana; color:#005ea7;}
+
+.spbga a:hover { background:#005ea7; color:#fff; text-decoration:none;}
+
+
+.lan .GoodsList-Tabs {border-top:2px solid #2e82d0;border-bottom: 1px solid #ddd;border-right: 1px solid #ddd;}
+
+.lan .GoodsList-Tabs .current{ color:#2e82d0; }
+
+.lan .sptit { background:#2e82d0;}
+
+.lan .spbg { border:1px solid #2e82d0;}
+
+
+
+.huang .GoodsList-Tabs {border-top:2px solid #f28300;}
+
+.huang .GoodsList-Tabs .current{ color:#f28300; }
+
+.huang .sptit { background:#f28300;}
+
+.huang .spbg { border:1px solid #f28300;}
+
+
+
+.hong .spbga a { float:none; width:70px;}
+
+
+
+
+
+.gao262 .GoodsListWrap{height:263px; overflow:hidden;}
+
+.gao262  .GoodsList { width:788px;}
+
+.gao262 .itemsWrap h6{ height:48px; margin-top:0px; line-height:16px;}
+
+.gao262 .itemsWrap { padding-bottom:3px;}
+
+
+
+
+
+#wzd { width:66px; height:20px;background:url(star-com.gif) top no-repeat;}
+
+/*------底部------*/
+
+.footer { width:998px; border:1px solid #ddd; background:#fefefe url(foot.gif) no-repeat; height:176px; margin-top:10px;}
+
+.foota { float:left; width:117px; padding-left:48px;}
+
+.footar { float:right; width:220px; padding-top:12px;}
+
+.footar a { color:#005EA7; }
+
+.footar h3 {font-family:"microsoft yahei";}
+
+.footer .TreeList { padding-top:5px;}
+
+.footer .TreeList .cat2, 
+
+.footer .TreeList .cat1 { padding:0px;}
